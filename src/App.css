@@ -1,8 +1,22 @@
 .App-footer {
   text-align: center;
-  margin: 30px 0;
+  padding-bottom: 30px;
+  padding-top: 10px;
 }
 
 .App {
   font-family: poppins;
+  background-image: url("./main-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.App-footer a {
+  color: rgb(165, 105, 165);
+  text-decoration: none;
+}
+
+.App-footer a:hover {
+  color: rgb(118, 74, 118);
+  text-decoration: underline;
 }

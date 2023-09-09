@@ -12,7 +12,16 @@ function App() {
           <Dictionary defaultValue="sunset" />
         </main>
       </div>
-      <footer className="App-footer">Coded by Araz Kubtanjian</footer>
+      <footer className="App-footer">
+        This project was coded by Araz Kubtanjian and is{" "}
+        <a
+          href="https://github.com/araz0515/dictionary-project"
+          target="_blank"
+          rel="noreferrer"
+        >
+          open-sourced on GitHub
+        </a>
+      </footer>
     </div>
   );
 }
