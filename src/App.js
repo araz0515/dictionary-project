@@ -9,7 +9,7 @@ function App() {
         <header className="App-header"></header>
         <main>
           {" "}
-          <Dictionary />
+          <Dictionary defaultValue="sunset" />
         </main>
       </div>
       <footer className="App-footer">Coded by Araz Kubtanjian</footer>
