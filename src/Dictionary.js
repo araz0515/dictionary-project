@@ -37,7 +37,7 @@ export default function Dictionary() {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <h1 className="text-center mt-5 mb-4">Dictionary</h1>
+        <h1 className="text-center mt-5">Dictionary</h1>
         <section>
           <form className="text-center" onSubmit={handleSubmit}>
             <input
@@ -48,7 +48,7 @@ export default function Dictionary() {
             />
           </form>
           <div className="hint">
-            Suggeted words: sunset, yoga, forest, crops...
+            Suggested words: sunset, yoga, forest, crops...
           </div>
         </section>
         <Results data={data} />

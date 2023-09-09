@@ -6,10 +6,10 @@ export default function Results(props) {
   console.log(props);
   if (props.data) {
     return (
-      <div className="Results mt-4">
+      <div className="Results">
         <section>
           <h2>{props.data.word}</h2>
-          <p>{props.data.phonetic}</p>
+          <p className="phonetic">{props.data.phonetic}</p>
         </section>
         {props.data.meanings.map(function (meaning, index) {
           return (
